@@ -1,0 +1,38 @@
+.app-container {
+  height: 100vh;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.galery-container {
+  width: 55%;
+  background-color: #fff;
+}
+
+.galery-image {
+  width: 100%;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: Roboto;
+  margin-bottom: 0px;
+}
+
+.description {
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 5px;
+}
+
+.thumbnail-items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0px;
+}
